@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "custom-property-pane-client-side-solution",
+    "id": "a994a7de-8abc-41a8-8a9c-0a292d2154cd",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "custom-property-pane description"
+      },
+      "longDescription": {
+        "default": "custom-property-pane description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "custom-property-pane Feature",
+        "description": "The feature that activates elements of the custom-property-pane solution.",
+        "id": "89937321-1a14-4039-8b3c-b173c720e139",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/custom-property-pane.sppkg"
+  }
+}
